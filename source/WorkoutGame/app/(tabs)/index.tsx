@@ -9,7 +9,7 @@ export default function TabOneScreen() {
       <Text style={styles.title}>Work out app first test</Text>
       <View style={styles.separator} lightColor="#eee" darkColor="rgba(51, 255, 0, 1)" />
       <EditScreenInfo path="fien" />
-      <Image source={require('@/assets/images/logic.png')} style={styles.logicImage}/>
+      <Image source={require('@/assets/images/logic.png')} style={styles.logicImage} resizeMode="contain" />
       <View style={styles.separator} lightColor="#eee" darkColor="rgba(51, 255, 0, 1)" />
     </View>
   );
@@ -32,8 +32,8 @@ const styles = StyleSheet.create({
   },
 
   logicImage: {
-    width: 200,
-    height: 200,
+    width: 220,
+    height: 220,
     marginBottom: 20,
   },
 });
