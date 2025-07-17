@@ -21,7 +21,8 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.zkcodes.WorkoutGame"
     },
     "web": {
       "bundler": "metro",
@@ -33,6 +34,19 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "48e9525d-8f1b-4206-8c90-76c144eb54e3"
+      }
+    },
+    "owner": "zkcodes",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/48e9525d-8f1b-4206-8c90-76c144eb54e3"
     }
   }
 }
